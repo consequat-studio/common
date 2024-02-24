@@ -1,0 +1,15 @@
+[*]
+charset=utf-8
+end_of_line=lf
+trim_trailing_whitespace=true
+insert_final_newline=true
+
+[*.{asax,ascx,aspx,c,c++,cc,cp,cpp,cs,cshtml,css,cu,cuh,cxx,h,hh,hpp,htm,html,hxx,inc,inl,ino,ipp,js,jsx,master,mpp,razor,skin,tpp,ts,tsx,vb,xaml,xamlx,xoml}]
+indent_style=space
+indent_size=4
+tab_width=4
+
+[*.{appxmanifest,build,config,csproj,dbml,discomap,dtd,json,jsproj,lsproj,njsproj,nuspec,proj,props,resjson,resw,resx,StyleCop,targets,tasks,vbproj,xml,xsd,yml}]
+indent_style=space
+indent_size=2
+tab_width=2
