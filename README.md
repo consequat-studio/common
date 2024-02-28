@@ -14,6 +14,14 @@
     git submodule add https://github.com/consequat-studio/common.git sub/common
     ```
 
+* Checkout organization specific branch
+
+    ```sh
+    cd ./sub/common
+    git checkout org-specific
+    cd ../..
+    ```
+
 * Create symbolic links for common files and copy license file by running shell script based on OS
 
     * *nix bash:
