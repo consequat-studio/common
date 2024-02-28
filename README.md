@@ -40,5 +40,7 @@
 * Run following commands from repository root
 
     ```sh
-    git submodule update --remote ./sub/common
+    cd ./sub/common
+    git pull
+    cd ../..
     ```
