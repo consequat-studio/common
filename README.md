@@ -1,4 +1,4 @@
-# Solidus Common repository
+# Consequat Studio Common repository
 
 ## Common Repository setup
 
@@ -11,7 +11,7 @@
 * Add this repo as a submodule by running following command from a shell
 
     ```sh
-    git submodule add https://github.com/solidus-framework/common.git sub/common
+    git submodule add https://github.com/consequat-studio/common.git sub/common
     ```
 
 * Create symbolic links for common files and copy license file by running shell script based on OS
