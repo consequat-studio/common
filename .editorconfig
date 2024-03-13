@@ -13,3 +13,11 @@ tab_width=4
 indent_style=space
 indent_size=2
 tab_width=2
+
+# .NET Code Analyzers
+[*.{cs,vb}]
+dotnet_diagnostic.IDE0005.severity = error
+dotnet_diagnostic.IDE0060.severity = error
+
+dotnet_diagnostic.CA1305.severity = none
+dotnet_diagnostic.CS1591.severity = none
